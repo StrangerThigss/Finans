@@ -1,0 +1,88 @@
+footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+hr .barra{
+    height: 10px;
+
+}
+
+footer p a {
+
+    padding-right: 20px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .cor {
+        color: darkolivegreen;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .espaco_coluna {
+        padding-bottom: 20px;
+    }
+    .tmtext {
+        font-size: 16px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cor {
+        color: deeppink;
+    }
+    h1 h2 h3 {
+        font-size: 28px;
+    }
+    .espaco_coluna {
+        padding-bottom: 20px;
+    }
+    .tmtext {
+        font-size: 18px;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cor {
+        color: darkred;
+    }
+    h1 h2 h3 {
+        font-size: 32px;
+    }
+    .tmtext {
+        font-size: 20px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cor {
+        color: blueviolet;
+    }
+    h1 h2 h3 {
+        font-size: 30px;
+    }
+    .tmtext {
+        font-size: 20px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    .cor {
+        color: goldenrod;
+    }
+}
